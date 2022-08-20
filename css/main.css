@@ -665,6 +665,18 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center;
   position: relative;
 }
+.products__item2 {
+  display: flex;
+  max-width: 570px;
+  max-height: 397px;
+  height: 100%;
+  width: 100%;
+  background-image: url("/images/products__background2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
 .products__item-left {
   display: flex;
   flex-direction: column;

@@ -32,7 +32,20 @@
         background-position: center;
         position: relative;
     }
-    
+
+    &__item2 {
+        display: flex;
+        max-width: 570px;
+        max-height: 397px;
+        height: 100%;
+        width: 100%;
+        background-image: url("/images/products__background2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+    }
+
     &__item-left {
         display: flex;
         flex-direction: column;
