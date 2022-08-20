@@ -550,6 +550,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: none;
   transition: all 0.3s ease;
   padding: 26px 116px 27px 117px;
+  cursor: pointer;
 }
 .hero__button:hover {
   transition: all 0.3s ease;
