@@ -118,4 +118,18 @@
         align-items: center;
         position: absolute;
     }
+    .background {
+        background-image: url("./../../images/background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+        z-index: -9999;
+        width: 1920px;
+        height: 992px;
+        position: absolute;
+    }
 }

@@ -1,0 +1,155 @@
+.products {
+    
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 91px;
+    }
+    
+    &__left-arrow {
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-right: 35px;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 39px;
+    }
+    
+    &__item {
+        display: flex;
+        max-width: 570px;
+        max-height: 397px;
+        height: 100%;
+        width: 100%;
+        background-image: url("/images/products__background.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+    }
+    
+    &__item-left {
+        display: flex;
+        flex-direction: column;
+        padding-left: 59px;
+    }
+    
+    &__item__sale-wrapper {
+        width: 68px;
+        height: 36px;
+        background: #70908B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -6px;
+        margin-bottom: 24px;
+    }
+    
+    &__item-sale {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+    
+    &__item-heading {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #195557;
+        margin-bottom: 17px;
+        max-width: 204px;
+        width: 100%;
+    }
+    
+    &__item-text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        max-width: 182px;
+        width: 100%;
+        height: 114px;
+        margin-bottom: 7px; 
+    }
+    
+    &__item__price-old {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: line-through;
+        color: #C2CCCA;
+    }
+    
+    &__item__price{
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #195557;
+    }
+    
+    &__item-right {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__item-info {
+        display: flex;
+        align-items: center;
+        margin-top: 19px;
+        margin-left: 242px;
+    }
+
+    &__item-info-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__item-pririv{
+        display: none;
+        align-items: center;
+        gap: 2px;
+    }
+
+    &__item-like{
+        display: none;
+        align-items: center;
+        gap: 2px;
+    }
+
+    &__item-img {
+    }
+    
+    &__item-btn {
+        background: none;
+        border: none;
+        position: absolute;
+        cursor: pointer;
+        bottom: 0;
+        right: 0;
+    }
+    
+    &__right-arrow {
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-left: 35px;
+    }
+}

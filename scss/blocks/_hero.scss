@@ -1,0 +1,79 @@
+.hero {
+    
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 202px;
+    }
+    
+    &__heading-wrapper {
+    }
+    
+    &__heading-img {
+        margin-bottom: 19.32px;
+    }
+    
+    &__heading {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 61px;
+        text-transform: uppercase;
+        color: #70908B;
+        margin-bottom: 18px;
+    }
+    
+    &__text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #70908B;
+        margin-bottom: 34px;
+    }
+    
+    &__button {
+        background: #70908B;
+        box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+        border-radius: 40px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        border: none;
+        padding: 26px 116px 27px 117px;
+    }
+}
+
+.left__hedgehog {
+    background-image: url("/images/left__hedgehog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    margin-right: 1460px;
+    margin-top: 693px;
+    width: 686.34px;
+    height: 565.46px;
+    z-index: -999;
+}
+
+.right__hedgehog {
+    background-image: url("/images/right__hedgehog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    margin-left: 1465px;
+    margin-top: 851px;
+    width: 795.2px;
+    height: 346.6px;
+    z-index: -999;
+}
