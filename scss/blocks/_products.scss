@@ -32,7 +32,7 @@
         background-position: center;
         position: relative;
     }
-
+    
     &__item2 {
         display: flex;
         max-width: 570px;
@@ -45,7 +45,7 @@
         background-position: center;
         position: relative;
     }
-
+    
     &__item-left {
         display: flex;
         flex-direction: column;
@@ -127,26 +127,68 @@
         align-items: center;
         margin-top: 19px;
         margin-left: 242px;
+        position: relative;
     }
-
+    
     &__item-info-btn {
         background: none;
         border: none;
         cursor: pointer;
+        &:hover ~ .active{
+            display: flex;
+        }
     }
 
+    &__hover{
+        width: 220px;
+        height: 88px;
+        background-image: url("/images/background__hover.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: none;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90%;
+        right: -13px;
+        gap: 29px;
+        align-items: center;
+    }
+
+    &__hover2{
+        width: 220px;
+        height: 88px;
+        background-image: url("/images/background__hover.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        display: none;
+        overflow: visible;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 90%;
+        right: 7px;
+        gap: 29px;
+        align-items: center;
+    }
+    
     &__item-pririv{
-        display: none;
+        display: flex;
         align-items: center;
+        color: white;
         gap: 2px;
     }
-
+    
     &__item-like{
-        display: none;
+        display: flex;
         align-items: center;
+        color: white;
         gap: 2px;
     }
-
+    
     &__item-img {
     }
     

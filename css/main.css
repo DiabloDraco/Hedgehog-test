@@ -548,7 +548,14 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 16px;
   color: #FFFFFF;
   border: none;
+  transition: all 0.3s ease;
   padding: 26px 116px 27px 117px;
+}
+.hero__button:hover {
+  transition: all 0.3s ease;
+  background: linear-gradient(90.14deg, #B0D3CE -2.41%, #FFEDCE 99.79%);
+  box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+  border-radius: 40px;
 }
 
 .left__hedgehog {
@@ -751,20 +758,60 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   margin-top: 19px;
   margin-left: 242px;
+  position: relative;
 }
 .products__item-info-btn {
   background: none;
   border: none;
   cursor: pointer;
 }
-.products__item-pririv {
+.products__item-info-btn:hover ~ .active {
+  display: flex;
+}
+.products__hover {
+  width: 220px;
+  height: 88px;
+  background-image: url("/images/background__hover.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   display: none;
+  overflow: visible;
+  justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 90%;
+  right: -13px;
+  gap: 29px;
+  align-items: center;
+}
+.products__hover2 {
+  width: 220px;
+  height: 88px;
+  background-image: url("/images/background__hover.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: none;
+  overflow: visible;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 90%;
+  right: 7px;
+  gap: 29px;
+  align-items: center;
+}
+.products__item-pririv {
+  display: flex;
+  align-items: center;
+  color: white;
   gap: 2px;
 }
 .products__item-like {
-  display: none;
+  display: flex;
   align-items: center;
+  color: white;
   gap: 2px;
 }
 .products__item-btn {
