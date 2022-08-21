@@ -1012,6 +1012,7 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #195557;
+  margin-left: 5px;
 }
 .count__bottom {
   max-width: 191px;
