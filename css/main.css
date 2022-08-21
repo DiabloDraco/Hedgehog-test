@@ -413,6 +413,9 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   gap: 89px;
 }
+.header_item {
+  position: relative;
+}
 .header__item:hover::before {
   content: "";
   display: inline-block;
@@ -422,7 +425,10 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: absolute;
   margin-bottom: 2px;
+  margin-top: 5px;
+  margin-left: -10px;
 }
 .header__item-link {
   font-family: "Cormorant Infant";
