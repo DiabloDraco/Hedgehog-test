@@ -1,0 +1,53 @@
+.count {
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 95px;
+    }
+    
+    &__top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    &__icon {
+        margin-right: 10px;
+    }
+    
+    &__top-text {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #195557;
+    }
+    
+    &__top-under {
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-decoration-line: underline;
+        color: #195557;
+    }
+    
+    &__bottom {
+        max-width: 191px;
+        width: 100%;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #195557;
+        margin-bottom: 60px;
+    }
+}

@@ -978,4 +978,51 @@ h1, h2, h3, h4, h5, h6, p {
   background: #EAEEEF;
   color: #70908B;
   box-shadow: inset 0 0 0 2px #70908B;
+}
+
+.count__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+}
+.count__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.count__icon {
+  margin-right: 10px;
+}
+.count__top-text {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #195557;
+}
+.count__top-under {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #195557;
+}
+.count__bottom {
+  max-width: 191px;
+  width: 100%;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #195557;
+  margin-bottom: 60px;
 }/*# sourceMappingURL=main.css.map */
