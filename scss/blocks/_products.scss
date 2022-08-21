@@ -28,7 +28,7 @@
         width: 100%;
         background-image: url("/images/products__background.svg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         position: relative;
     }
@@ -41,7 +41,7 @@
         width: 100%;
         background-image: url("/images/products__background2.svg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         position: relative;
     }
@@ -197,8 +197,8 @@
         border: none;
         position: absolute;
         cursor: pointer;
-        bottom: 0;
-        right: 0;
+        bottom: -7px;
+        right: -10px;
     }
     
     &__right-arrow {
