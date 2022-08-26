@@ -1,0 +1,89 @@
+.footer {
+    background: #70908B;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        vertical-align: center;
+        padding-top: 49px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 30px;
+    }
+    
+    &__top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24.19px;
+    }
+    
+    &__logo {
+        text-decoration: none;
+        display: flex;
+        flex-grow: 1;
+        cursor: pointer;
+    }
+    
+    &__nav {
+    }
+    
+    &__nav-list {
+        display: flex;
+        align-items: center;
+        gap: 85px;
+        margin-right: 99px;
+    }
+    
+    &__item {
+        
+    }
+    
+    &__item-link {
+        text-decoration: none;
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    &__media-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-right: 76px;
+    }
+    
+    &__media-item {
+        cursor: pointer;
+    }
+    
+    &__num {
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #FFFFFF;        
+    }
+    
+    &__bottom {
+    }
+    
+    &__bottom-text {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 131.4%;        
+        color: #FFFFFF;
+    }
+}
+.container {
+}

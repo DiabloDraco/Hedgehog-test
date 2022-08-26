@@ -352,6 +352,7 @@ body {
   font-size: 16px;
   position: relative;
   background-color: #E5E5E5;
+  overflow-x: hidden;
 }
 
 img {
@@ -1026,4 +1027,73 @@ h1, h2, h3, h4, h5, h6, p {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #195557;
   margin-bottom: 60px;
+}
+
+.footer {
+  background: #70908B;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+  padding-top: 49px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24.19px;
+}
+.footer__logo {
+  text-decoration: none;
+  display: flex;
+  flex-grow: 1;
+  cursor: pointer;
+}
+.footer__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  margin-right: 99px;
+}
+.footer__item-link {
+  text-decoration: none;
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer__media-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 76px;
+}
+.footer__media-item {
+  cursor: pointer;
+}
+.footer__num {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.footer__bottom-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 131.4%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
